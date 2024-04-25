@@ -1,11 +1,10 @@
 package org.example;
-
-public class Satelites extends Astros{
+public class Satelite extends Astros{
     private double distanciaAlPlaneta;
     private double orbita;
     private Planetas planeta;
 
-    public Satelites(double radio, double rotacion, double masa, double temperatura, double gravedad, double distanciaAlPlaneta, double orbita, Planetas planeta) {
+    public Satelite(double radio, double rotacion, double masa, double temperatura, double gravedad, double distanciaAlPlaneta, double orbita, Planetas planeta) {
         super(radio, rotacion, masa, temperatura, gravedad);
         this.distanciaAlPlaneta = distanciaAlPlaneta;
         this.orbita = orbita;
